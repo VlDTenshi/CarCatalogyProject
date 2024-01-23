@@ -3,19 +3,16 @@ using CarCatalogyProject.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
 namespace CarCatalogyProject.Migrations
 {
-    [DbContext(typeof(AppDBContent))]
-    [Migration("20240122222303_Inition")]
-    partial class Inition
+    [DbContext(typeof(AppDBContentModelSnapshot))]
+    partial class AppDBContentModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

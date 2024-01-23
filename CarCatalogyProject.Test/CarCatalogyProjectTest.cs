@@ -27,10 +27,8 @@ namespace CarCatalogyProject.Test
                 Message = "This is a test message."
             };
 
-            var controller = new ContactsController();
-
             // Act
-            var result = controller.Check(contact);
+            var result = ContactsController.Check(contact);
 
             // Assert
             var redirectResult = Assert.IsType<RedirectResult>(result);
@@ -46,11 +44,11 @@ namespace CarCatalogyProject.Test
                 // Omitting required properties to simulate invalid model state
             };
 
-            var controller = new ContactsController();
-            controller.ModelState.AddModelError("Name", "Name is required"); // Simulate ModelState error
+
+            ContactsController.ModelState.AddModelError("Name", "Name is required"); // Simulate ModelState error
 
             // Act
-            var result = controller.Check(contact);
+            var result = ContactsController.Check(contact);
 
             // Assert
             var viewResult = Assert.IsType<ViewResult>(result);

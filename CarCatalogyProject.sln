@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCatalogyProject", "CarCatalogyProject\CarCatalogyProject.csproj", "{E8B8754B-0E72-4EBF-9A81-67CC3A876ADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCatalogyProject", "CarCatalogyProject\CarCatalogyProject.csproj", "{E8B8754B-0E72-4EBF-9A81-67CC3A876ADC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCatalogyProject.Test", "CarCatalogyProject.Test\CarCatalogyProject.Test.csproj", "{4C28496E-8A7F-43E7-A14B-D999C9549705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCatalogyProject.Core", "CarCatalogyProject.Core\CarCatalogyProject.Core.csproj", "{F466EA2F-2B68-40E7-B680-57D85AC5032E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCatalogyProject.Data", "CarCatalogyProject.Data\CarCatalogyProject.Data.csproj", "{A2DA418D-740F-4625-95DC-00E8AE74B15D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{E8B8754B-0E72-4EBF-9A81-67CC3A876ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8B8754B-0E72-4EBF-9A81-67CC3A876ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8B8754B-0E72-4EBF-9A81-67CC3A876ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C28496E-8A7F-43E7-A14B-D999C9549705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C28496E-8A7F-43E7-A14B-D999C9549705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C28496E-8A7F-43E7-A14B-D999C9549705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C28496E-8A7F-43E7-A14B-D999C9549705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F466EA2F-2B68-40E7-B680-57D85AC5032E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F466EA2F-2B68-40E7-B680-57D85AC5032E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F466EA2F-2B68-40E7-B680-57D85AC5032E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F466EA2F-2B68-40E7-B680-57D85AC5032E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DA418D-740F-4625-95DC-00E8AE74B15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DA418D-740F-4625-95DC-00E8AE74B15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DA418D-740F-4625-95DC-00E8AE74B15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DA418D-740F-4625-95DC-00E8AE74B15D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
